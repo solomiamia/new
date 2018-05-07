@@ -249,11 +249,12 @@ header {
     letter-spacing: 1.2px;
 }
 #top {
-    background: url(../img/N.png) no-repeat center top / contain;
-    position: relative;
-    color: #fff;
-    text-align: center;
-    background-size: 1920px 500px;
+    background: url(../img/N.png) no-repeat center -10px;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	height: 501px;
+	overflow: initial;
 }
 
     
