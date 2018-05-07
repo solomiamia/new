@@ -16,6 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
   clear: both;
   }
 
+/* виключення псевдоелементів всередині деяких тегів(ссилок, текстових елементів, таблиць, тощо) */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
@@ -266,7 +267,7 @@ header {
     margin-top: 17px;
     font-family: 'Exo 2';
 }
-.price {
+#top .price {
     display: block;
     width: 240px;
     height: 34px;
@@ -280,7 +281,7 @@ header {
     margin-left: 479px;
     padding-top: 7px;
 }
-.forma {
+#top .forma {
     display: block;
     width: 717px;
     height: 77px;
@@ -295,7 +296,7 @@ header {
     line-height: 2px;
     padding-left: 2px;
 }
-.kons {
+#top .kons {
     text-align: justify;
     font-size: 24px;
     margin-left: 88px;
@@ -307,7 +308,7 @@ header {
     margin-top: 0px;
 }
 
-.konst {
+#top .konst {
     text-align: left;
     font-size: 15px;
     margin-left: 87px;
@@ -315,12 +316,12 @@ header {
     word-spacing: -2px;
     letter-spacing: 1.9px;
 }
-.w {
+#top .w {
     position: absolute;
     margin-left: 5px;
     margin-top: 15px;
 }
-.consult {
+#top .consult {
     display: block;
     float: right;
     font-size: 16px;
@@ -347,7 +348,7 @@ header {
 }
 
 
-.od {
+#sec2 .od {
     float: left;
     background-image: url(../img/png/hm.png);
     background-position: left;
@@ -363,7 +364,7 @@ header {
     padding-left: 77px;
     word-spacing: -0.9px;
  }
- .dva {
+#sec2 .dva {
     float: left;
     margin-left: 164px;
     background-image: url(../img/png/call.png);
@@ -378,7 +379,7 @@ header {
     padding-top: 7px;
     padding-left: 78px;
  }
-.tru {
+#sec2 .tru {
     float: left;
     background-image: url(../img/png/hend.png);
     background-position: left;
@@ -393,11 +394,11 @@ header {
     padding-top: 7px;
     padding-left: 83px;
 }
-#dote {
+#sec2 #dote {
     margin-top: 10px;
     height: 100px;
 }
-.hoturu {
+#sec2 .hoturu {
     float: left;
     background-image: url(../img/png/list.png);
     background-position: left;
@@ -413,7 +414,7 @@ header {
     padding-top: 1px;
     padding-left: 78px;
 }
-.piat {
+#sec2 .piat {
     float: left;
     background-image: url(../img/png/lictok.png);
     background-position: left;
@@ -429,7 +430,7 @@ header {
     padding-left: 77px;
     word-spacing: -0.9px;
 }   
-.wist {
+#sec2 .wist {
     float: left;
     background-image: url(../img/png/Truba.png);
     background-position: left;
